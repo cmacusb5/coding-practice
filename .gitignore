@@ -1,0 +1,81 @@
+# global ignore directories
+.cache/
+.vscode/
+*.code-workspace
+dist/
+Generated/
+linux-os/
+node_modules/
+obj/
+
+# global ignore files
+*.a
+*.elf
+*.hex
+*.jlink
+*.kate-swp
+*.map
+*.o
+*.pyc
+.cproject
+.directory
+.project
+.pydevproject
+.settings
+aggregate.log
+CMakeFiles
+device.mender*
+dump.rdb
+output.txt
+package-lock.json
+ProjectVersion.h
+sonar-scanner-cli*-linux.zip
+sonar-cfamily-reproducer.zip
+SonarQube/*
+sonar.log
+.scannerwork/*
+usb.input
+yarn.lock
+yarn-error.log
+
+# Qt-es
+object_script.*.Release
+object_script.*.Debug
+*_plugin_import.cpp
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+*build-*
+*.qm
+*.prl
+
+# Qt unit tests
+target_wrapper.*
+
+# QtCreator
+*.autosave
+
+# QtCreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# QtCreator CMake
+CMakeLists.txt.user*
+
+# QtCreator local machine specific files for imported projects
+*creator.user*
+
+*_qmlcache.qrc
+
+\build
+
