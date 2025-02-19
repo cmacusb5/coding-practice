@@ -1,2 +1,2 @@
 # Implement a CircularArray class that supports and array-like data structure which 
-# can be efficiently rotated.
+# can be efficiently rotated. The class should be iterable.
